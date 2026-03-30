@@ -2,7 +2,6 @@
 
 ![C#](https://img.shields.io/badge/C%23-Programming-blue) 
 ![.NET](https://img.shields.io/badge/.NET-Framework-purple) 
-![SQLite](https://img.shields.io/badge/Database-SQLite-green) 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
 
@@ -11,15 +10,21 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 🚀 Özellikler
 
 -Egzersiz ekleme
+
 -Egzersizleri listeleme
+
 -Dosyaya kaydetme ve okuma
+
 -Basit kullanıcı arayüzü
 
 🛠 Kullanılan Teknolojiler
 
 -C#
+
 -Windows Forms (.NET Framework)
+
 -Dosya tabanlı veri kaydı
+
 -Visual Studio 2022
 
 📌 Proje Durumu
