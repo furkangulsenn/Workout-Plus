@@ -11,6 +11,7 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 
 🚀 Özellikler
 
+
 -Egzersiz ekleme
 
 -Egzersizleri listeleme
@@ -22,6 +23,7 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 
 
 🛠 Kullanılan Teknolojiler
+
 
 -C#
 
@@ -35,6 +37,7 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 
 
 📌 Proje Durumu
+
 
 -Bu, giriş seviyesi v1 sürümüdür. Yeni özellikler ve iyileştirmeler v2 sürümünde eklenecektir.
 
