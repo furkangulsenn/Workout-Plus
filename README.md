@@ -13,18 +13,20 @@ Egzersiz ekleme
 Egzersizleri listeleme
 Dosyaya kaydetme ve okuma
 Basit kullanıcı arayüzü
+
 🛠 Kullanılan Teknolojiler
 C#
 Windows Forms (.NET Framework)
 Dosya tabanlı veri kaydı
 Visual Studio 2022
+
 📌 Proje Durumu
 
 Bu, giriş seviyesi v1 sürümüdür. Yeni özellikler ve iyileştirmeler v2 sürümünde eklenecektir.
 
 👀 Ekran Görüntüleri
 
-(Opsiyonel: Buraya ekran görüntülerini ekleyebilirsin)
+------------------------------------------------
 
 👨‍💻 Geliştirici
 
