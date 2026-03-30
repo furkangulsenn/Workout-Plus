@@ -7,6 +7,8 @@
 
 AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği temel bir antrenman programıdır. Windows Forms ile geliştirilmiştir ve dosya tabanlı kayıt sistemi kullanır.
 
+
+
 🚀 Özellikler
 
 -Egzersiz ekleme
@@ -16,6 +18,8 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 -Dosyaya kaydetme ve okuma
 
 -Basit kullanıcı arayüzü
+
+
 
 🛠 Kullanılan Teknolojiler
 
@@ -27,13 +31,20 @@ AntrenmanProgrami, kullanıcıların egzersizlerini kaydedip yönetebildiği tem
 
 -Visual Studio 2022
 
+
+
+
 📌 Proje Durumu
 
 -Bu, giriş seviyesi v1 sürümüdür. Yeni özellikler ve iyileştirmeler v2 sürümünde eklenecektir.
 
+
+
 👀 Ekran Görüntüleri
 
 ------------------------------------------------
+
+
 
 👨‍💻 Geliştirici
 
