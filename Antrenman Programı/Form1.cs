@@ -238,5 +238,15 @@ namespace AntrenmanProgrami
             }
         }
 
+        // 3 form kullandığım için denediğim diğer close veya exit metodları işe yaramadığı yada çakışmaya sebebp olduğu için bu metoda başvurdum
+
+        // https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.form.onformclosing?view=windowsdesktop-8.0 
+        // bu metodun vs cod un içinde otomatik olduğunu ve visual olduğunu araştırıp kullandım sebebi form kapatıldığında uygulamanın tamamen kapanmasını sağlamak içindir normalde form kapatıldığında uygulama arka planda çalışmaya devam eder bu yüzden bunu kullanarak uygulamanın tamamen kapanmasını sağladım
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            Application.Exit();
+        }
+
     }
 }

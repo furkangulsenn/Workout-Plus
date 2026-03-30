@@ -62,7 +62,9 @@ namespace Antrenman_Programı
 
             string ad = parca[0];
 
-            lblBaslik.Text = "Antrenman Programına Hoşgeldin " + ad + " " + cnsyt;
+           // lblBaslik.Text = "Antrenman Programına Hoşgeldin " + ad + " " + cnsyt;
+            lblHitap.Text = ad + " " + cnsyt;
         }
+
     }
 }

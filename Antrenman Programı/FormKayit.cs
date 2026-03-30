@@ -13,7 +13,7 @@ namespace AntrenmanProgrami
 
         public FormKayit()
         {
-            InitializeComponent();
+            InitializeComponent();         
         }
 
         private void btnKaydol_Click(object sender, EventArgs e)
@@ -41,13 +41,21 @@ namespace AntrenmanProgrami
 
                 Form1 frm = new Form1();
                 frm.Show();
-                this.Close();
+                this.Hide();
             }
             catch
             {
                 MessageBox.Show("Hatalı giriş!");
             }
 
+
+
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+            Application.Exit();
         }
     }
 }
