@@ -16,6 +16,7 @@ namespace AntrenmanProgrami
         {
             InitializeComponent();
             VerileriYukle(); // Program açıldığında verileri yüklemek için buraya ekledim
+            ProgramiGoster();
         }
 
         private void btnEkle_Click(object sender, EventArgs e)
@@ -31,7 +32,7 @@ namespace AntrenmanProgrami
                 int tekrar = Convert.ToInt32(txtTekrar.Text);
                 int agirlik = Convert.ToInt32(txtAgirlik.Text);
 
-                if (set <= 0 )
+                if (set <= 0)
                 {
                     MessageBox.Show("Set sayısı negatif olamaz!");
                     return;
@@ -82,8 +83,9 @@ namespace AntrenmanProgrami
             for (int i = 0; i < egzersizListesi.Count; i++)
             {
                 Egzersiz eg = (Egzersiz)egzersizListesi[i]; // Egzersiz classı tipinde bi değer oluşturmak için yaptık sebebi zaten onun içindeki değerleri 'eg' değişkeni kullanılarak elde edilmek istenmesidir Egzersiz klassının içinde int ve stringler blundupu için hepsini kapsayan bi tiptir.
-                listBox1.Items.Add(eg.BilgiGoster());
-                s.Points.AddXY(eg.Isim, eg.Agirlik);
+                listBox1.Items.Add(eg.BilgiGoster()); //array listin i. indeksinden aldığım bilgileri egzersiz class ı içindeki metodla listboxa yazdırmak için yaptım
+
+                s.Points.AddXY(eg.Isim, eg.Agirlik); //grafiğe eklemek için
             }
         }
 
@@ -110,8 +112,8 @@ namespace AntrenmanProgrami
         {
             try
             {
-                if (!File.Exists(dosyaAdi))  return;
-                
+                if (!File.Exists(dosyaAdi)) return;
+
                 egzersizListesi.Clear();
 
                 using (StreamReader sr = new StreamReader(dosyaAdi))
@@ -184,13 +186,56 @@ namespace AntrenmanProgrami
 
                 MessageBox.Show($"Ağırlığı olan {adet} egzersizin ortalaması: {ortalamaAgirlik:F2} kg");
 
+
+
+
             }
             catch
             {
                 MessageBox.Show("Ortalama zaten hesaplandı yeni değer ekleyip tekrar deneyiniz!");
             }
 
-           
+
+        }
+
+        private void ProgramiGoster()
+        {
+            listBox2.Items.Clear();
+
+            if (!File.Exists("seviyeler.txt"))
+                return;
+
+            StreamReader sr = new StreamReader("seviyeler.txt");
+            string satir = sr.ReadLine();
+            sr.Close();
+
+            string[] parca = satir.Split(';');
+            int seviye = Convert.ToInt32(parca[2]);
+
+            if (seviye == 1)
+            {
+                listBox2.Items.Add("Pazartesi: Dinlenme");
+                listBox2.Items.Add("Salı: Bench Press");
+                listBox2.Items.Add("Çarşamba: Squat");
+                listBox2.Items.Add("Perşembe: Dinlenme");
+                listBox2.Items.Add("Cuma: Deadlift");
+            }
+            else if (seviye == 2)
+            {
+                listBox2.Items.Add("Pazartesi: Göğüs");
+                listBox2.Items.Add("Salı: Sırt");
+                listBox2.Items.Add("Çarşamba: Bacak");
+                listBox2.Items.Add("Perşembe: Omuz");
+                listBox2.Items.Add("Cuma: Kardiyo");
+            }
+            else
+            {
+                listBox2.Items.Add("Pazartesi: Koşu");
+                listBox2.Items.Add("Salı: Bisiklet");
+                listBox2.Items.Add("Çarşamba: Karın");
+                listBox2.Items.Add("Perşembe: Yürüyüş");
+                listBox2.Items.Add("Cuma: Kardiyo");
+            }
         }
 
     }

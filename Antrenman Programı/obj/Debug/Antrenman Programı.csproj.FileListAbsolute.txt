@@ -18,3 +18,15 @@ C:\Users\FURKAN\Desktop\Antrenman Programı\Antrenman Programı\obj\Debug\Antren
 C:\Users\FURKAN\Desktop\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.csproj.CoreCompileInputs.cache
 C:\Users\FURKAN\Desktop\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.exe
 C:\Users\FURKAN\Desktop\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.pdb
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.csproj.AssemblyReference.cache
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\AntrenmanProgrami.Form1.resources
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman_Programı.FormGiris.resources
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\AntrenmanProgrami.FormKayit.resources
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman_Programı.Properties.Resources.resources
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.csproj.GenerateResource.cache
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.csproj.CoreCompileInputs.cache
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.exe
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\obj\Debug\Antrenman Programı.pdb
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\bin\Debug\Antrenman Programı.exe.config
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\bin\Debug\Antrenman Programı.exe
+C:\Users\FURKAN\Desktop\Yeni klasör (2)\Antrenman Programı\Antrenman Programı\bin\Debug\Antrenman Programı.pdb
